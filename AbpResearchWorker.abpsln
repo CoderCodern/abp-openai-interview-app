@@ -1,0 +1,68 @@
+{
+  "id": "20c321b1-ce90-4240-bd44-4ff906a0e7e6",
+  "creationTime": "10/28/2025 02:30:47 +00:00",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "9.3.5",
+    "AbpStudio": "1.4.1",
+    "TargetDotnetFramework": "net9.0"
+  },
+  "modules": {
+    "AbpResearchWorker": {
+      "path": "AbpResearchWorker.abpmdl",
+      "folder": "main"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": []
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "1.4.1",
+    "tiered": "false",
+    "runInstallLibs": "true",
+    "useLocalReferences": "false",
+    "multiTenancy": "true",
+    "includeTests": "true",
+    "kubernetesConfiguration": "false",
+    "uiFramework": "angular",
+    "mobileFramework": "none",
+    "distributedEventBus": "none",
+    "databaseProvider": "ef",
+    "runDbMigrator": "true",
+    "databaseManagementSystem": "sqlserver",
+    "separateTenantSchema": "false",
+    "createInitialMigration": "true",
+    "theme": "leptonx-lite",
+    "themeStyle": "",
+    "themeMenuPlacement": "",
+    "progressiveWebApp": "false",
+    "runProgressiveWebAppSupport": "false",
+    "publicWebsite": "false",
+    "socialLogin": "false",
+    "selectedLanguages": [
+      "Vietnamese (Vietnam)",
+      "Chinese (Simplified)",
+      "Chinese (Traditional)",
+      "English",
+      "English (United Kingdom)",
+      "French",
+      "Russian"
+    ],
+    "defaultLanguage": "Vietnamese (Vietnam)",
+    "createCommand": "abp new AbpResearchWorker -t app --ui-framework angular --database-provider ef --database-management-system sqlserver --theme leptonx-lite --without-cms-kit --sample-crud-page --dont-run-bundling --no-social-logins -no-gdpr -no-openiddict-admin-ui -no-audit-logging -no-file-management -no-language-management -no-text-template-management"
+  },
+  "folders": {
+    "items": {
+      "main": {},
+      "modules": {}
+    }
+  }
+}

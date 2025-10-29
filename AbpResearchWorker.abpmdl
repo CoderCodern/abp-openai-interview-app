@@ -1,0 +1,108 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.3.5",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.3.5",
+      "isInstalled": true,
+      "creationTime": "10/28/2025 02:30:47 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.3.5",
+      "isInstalled": true,
+      "creationTime": "10/28/2025 02:30:47 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.3.5",
+      "isInstalled": true,
+      "creationTime": "10/28/2025 02:30:47 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.3.5",
+      "isInstalled": true,
+      "creationTime": "10/28/2025 02:30:47 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.3.5",
+      "isInstalled": true,
+      "creationTime": "10/28/2025 02:30:47 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.3.5",
+      "isInstalled": true,
+      "creationTime": "10/28/2025 02:30:47 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.3.5",
+      "isInstalled": true,
+      "creationTime": "10/28/2025 02:30:47 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "AbpResearchWorker.Application": {
+      "path": "src/AbpResearchWorker.Application/AbpResearchWorker.Application.abppkg",
+      "folder": "src"
+    },
+    "AbpResearchWorker.Application.Tests": {
+      "path": "test/AbpResearchWorker.Application.Tests/AbpResearchWorker.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpResearchWorker.Domain.Shared": {
+      "path": "src/AbpResearchWorker.Domain.Shared/AbpResearchWorker.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "AbpResearchWorker.Application.Contracts": {
+      "path": "src/AbpResearchWorker.Application.Contracts/AbpResearchWorker.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "AbpResearchWorker.HttpApi": {
+      "path": "src/AbpResearchWorker.HttpApi/AbpResearchWorker.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "AbpResearchWorker.HttpApi.Client": {
+      "path": "src/AbpResearchWorker.HttpApi.Client/AbpResearchWorker.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "AbpResearchWorker.EntityFrameworkCore.Tests": {
+      "path": "test/AbpResearchWorker.EntityFrameworkCore.Tests/AbpResearchWorker.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpResearchWorker.EntityFrameworkCore": {
+      "path": "src/AbpResearchWorker.EntityFrameworkCore/AbpResearchWorker.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "AbpResearchWorker.TestBase": {
+      "path": "test/AbpResearchWorker.TestBase/AbpResearchWorker.TestBase.abppkg",
+      "folder": "test"
+    },
+    "AbpResearchWorker.Domain.Tests": {
+      "path": "test/AbpResearchWorker.Domain.Tests/AbpResearchWorker.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpResearchWorker.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AbpResearchWorker.HttpApi.Client.ConsoleTestApp/AbpResearchWorker.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "AbpResearchWorker.DbMigrator": {
+      "path": "src/AbpResearchWorker.DbMigrator/AbpResearchWorker.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "AbpResearchWorker.HttpApi.Host": {
+      "path": "src/AbpResearchWorker.HttpApi.Host/AbpResearchWorker.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "AbpResearchWorker.Domain": {
+      "path": "src/AbpResearchWorker.Domain/AbpResearchWorker.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
