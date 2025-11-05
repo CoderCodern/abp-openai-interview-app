@@ -11,10 +11,6 @@ public class AbpResearchWorkerPermissionDefinitionProvider : PermissionDefinitio
     {
         var myGroup = context.AddGroup(AbpResearchWorkerPermissions.GroupName);
 
-        var booksPermission = myGroup.AddPermission(AbpResearchWorkerPermissions.Books.Default, L("Permission:Books"));
-        booksPermission.AddChild(AbpResearchWorkerPermissions.Books.Create, L("Permission:Books.Create"));
-        booksPermission.AddChild(AbpResearchWorkerPermissions.Books.Edit, L("Permission:Books.Edit"));
-        booksPermission.AddChild(AbpResearchWorkerPermissions.Books.Delete, L("Permission:Books.Delete"));
         //Define your own permissions here. Example:
         //myGroup.AddPermission(AbpResearchWorkerPermissions.MyPermission1, L("Permission:MyPermission1"));
     }

@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
-using AbpResearchWorker.Books;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
 using Volo.Abp.BlobStoring.Database.EntityFrameworkCore;
 using Volo.Abp.Data;
@@ -27,8 +26,6 @@ public class AbpResearchWorkerDbContext :
     IIdentityDbContext
 {
     /* Add DbSet properties for your Aggregate Roots / Entities here. */
-
-    public DbSet<Book> Books { get; set; }
 
     #region Entities from the modules
 
@@ -80,14 +77,6 @@ public class AbpResearchWorkerDbContext :
         builder.ConfigureOpenIddict();
         builder.ConfigureTenantManagement();
         builder.ConfigureBlobStoring();
-        
-        builder.Entity<Book>(b =>
-        {
-            b.ToTable(AbpResearchWorkerConsts.DbTablePrefix + "Books",
-                AbpResearchWorkerConsts.DbSchema);
-            b.ConfigureByConvention(); //auto configure for the base class props
-            b.Property(x => x.Name).IsRequired().HasMaxLength(128);
-        });
         
         /* Configure your own tables/entities inside here */
 
